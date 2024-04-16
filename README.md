@@ -1,2 +1,0 @@
-# untuk-fara
-buat kamu
