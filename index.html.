@@ -1,25 +1,29 @@
-<html>
-<!-- 
-This code was made by Adam Mahfud
-Instagram: Repdzone_
-TikTok: Repdzone
-WhatsApp: 6285156843756
--->
-<meta charset='UTF-8'/>
-<meta content='width=device-width, initial-scale=1, user-scalable=1, minimum-scale=1, maximum-scale=5' name='viewport'/>
-<meta content='IE=edge' http-equiv='X-UA-Compatible'/>
-<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
-<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.0.19/dist/sweetalert2.all.min.js"></script>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-<!-- Judul untuk Browser -->
-<title>Untuk Fara <3</title>
-</head>
-
-<body>
-<style>
-body{background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSk_RCpnqcFCiKCRFr0QVnr6fWwVUbeAUrNaQ&usqp=CAU");background-color:#1e1e1e}
-h1{border-bottom:1px solid #97999A;margin:0;color:#fefefe;font-weight:700;}
-body{font-family: 'Quicksand', sans-serif;padding: 25px}
+    <!-- Metadata -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=1, minimum-scale=1, maximum-scale=5">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.0.19/dist/sweetalert2.all.min.js"></script>
+    <title>Untuk Fara <3</title>
+    <style>
+        body {
+            background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSk_RCpnqcFCiKCRFr0QVnr6fWwVUbeAUrNaQ&usqp=CAU");
+            background-color: #1e1e1e;
+            font-family: 'Quicksand', sans-serif;
+            padding: 25px;
+        }
+        h1 {
+            border-bottom: 1px solid #97999A;
+            margin: 0;
+            color: #fefefe;
+            font-weight: 700;
+        }
+        body{font-family: 'Quicksand', sans-serif;padding: 25px}
 
 .scrollImage{display:flex;flex-wrap:wrap;align-items:flex-start;justify-content:center; margin:2em 0; position:relative;left:-7.5px;width:calc(100% + 15px)}
 .scrollImage > *{border-radius:10px;width:calc(33.333% - 15px); margin:0 7.5px 15px}
@@ -31,14 +35,15 @@ body{font-family: 'Quicksand', sans-serif;padding: 25px}
 
 .lovein{width:48px;height:48px;display:flex;align-items:center;justify-content:center;transition:all .1s ease;}
 .lovein:hover, .scrollImage p img:hover{transition:all .1s ease;transform: scale(1.2);}
-</style>
+    </style>
+</head>
+<body>
+    <h1>Untuk Fara <3</h1>
+    <p style="opacity: .8; color: #ffffff; margin-top: 12px;">Geser dong ><</p>
 
-<h1>Untuk Fara <3</h1>
-<p style="opacity:.8;color:#ffffff;margin-top:12px;">Geser dong ><</p>
-
-<!--[ Ucapan ]-->
-<div class='scrollImage'>
-  <p><img style="margin-right:10px;" alt="Love You" src="https://c.tenor.com/PvvfK8n6lBQAAAAM/milk-and-mocha-love.gif" height="50" />
+    <!-- Konten Anda... -->
+    <div class='scrollImage'>
+        <p><img style="margin-right:10px;" alt="Love You" src="https://c.tenor.com/PvvfK8n6lBQAAAAM/milk-and-mocha-love.gif" height="50" />
   Hai Fara~</p>
   <p>Bagaimana kabar Fara?</p>
   <p>Adam harap semoga Fara baik-baik saja
@@ -55,11 +60,11 @@ body{font-family: 'Quicksand', sans-serif;padding: 25px}
   <p><img style="margin-right:5px;" alt="Pentol" src="https://c.tenor.com/AlUwZp0ih_wAAAAi/pentol-quby.gif" height="70" /></p>
   <p>Oh iya</p>
   <p>Pencet&nbsp;<span id="wrnRed">LOVE</span>-nya~<label class='lovein' onClick="mulai()">&#10084;&#65039;</label></p>
-</div>
+    </div>
 
-<!-- Ini JS agar Tombolnya berjalan sesuai perintah -->
-<script type="text/javascript">
-            const author = 'Adam';
+    <!-- Scripts -->
+    <script type="text/javascript">
+        const author = 'Adam';
             const swals = Swal.mixin({
                 cancelButtonColor: '#909090',
                 confirmButtonColor: '#3085d6',
@@ -132,6 +137,6 @@ body{font-family: 'Quicksand', sans-serif;padding: 25px}
                     await swals.fire('Gak boleh kosong');
                 }
             }
-</script>
+    </script>
 </body>
 </html>
